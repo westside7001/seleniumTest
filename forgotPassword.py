@@ -21,5 +21,6 @@ reSend.click()
 
 
 #print(email)
+#再做一些重複動作的測試
 time.sleep(10)
 driver.close()
