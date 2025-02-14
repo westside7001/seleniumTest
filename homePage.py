@@ -5,13 +5,13 @@ import time
 
 driver = webdriver.Firefox()
 driver.get("https://mygoldenqa.arlo.com/#/home")
-signIn = driver.find_element(By.CLASS_NAME, "flex-display-c camsdk-view")
+signIn = driver.find_element(By.CLASS_NAME,'basic-link')
 #driver.find_element(By.ID, "loginEmail").send_keys("arloqaregister+1701127729525jwrn+us@gmail.com")
 #driver.find_element(By.ID, "loginPassword").send_keys("Netgear1")
-#ignInButton = driver.find_element(By.CLASS_NAME,"login-button-home")
-#signInButton.submit()
+#signInButton = driver.find_element(By.CLASS_NAME,"login-button-home")
+signIn.click()
 
 
 #print(email)
-time.sleep(5)
+time.sleep(8)
 driver.close()
