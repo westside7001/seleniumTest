@@ -1,3 +1,4 @@
+import mdc
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -11,16 +12,16 @@ driver.get("https://mygoldenqa.arlo.com/#/login")
 fp = driver.find_element(By.CLASS_NAME,'forget-password-link')
 fp.click()
 inputEmail = driver.find_element(By.ID, "email")
-inputEmail.send_keys("arloqaregister+1731545247433azuy+us@gmail.com")
+inputEmail.send_keys('arloqaregister+1731545247433azuy+us@gmail.com')
 inputEmail.submit()
-time.sleep(5)
-reSend = driver.find_element(By.CLASS_NAME, 'mdc-button__label')
-reSend.click()
-#loginButton = driver.find_element(By.ID,"loginForm")
-#loginButton.submit()
+time.sleep(3)
+reSend = driver.find_element(By.CLASS_NAME,'submit-button')
+num = 1
+while num <= 5:
+    reSend.click()
+    num = num + 1
+    time.sleep(3)
+    print(num)
 
-
-#print(email)
-#再做一些重複動作的測試
 time.sleep(10)
 driver.close()
