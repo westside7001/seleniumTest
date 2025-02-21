@@ -1,3 +1,6 @@
+#Create Account已寫完，因為卡在Account 認證的部份，所以就只寫到把Create Account 資料填完即結束
+#往後可新增檢查ToS的日期，已確認是否為最新版
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
