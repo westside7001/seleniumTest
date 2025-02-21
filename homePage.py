@@ -13,5 +13,5 @@ signIn.click()
 
 
 #print(email)
-time.sleep(8)
+time.sleep(5)
 driver.close()
