@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.6 on win32)" generated="20250514 14:46:07.602" rpa="false" schemaversion="4">
+<suite id="s1" name="Forgot pwd" source="C:\Users\cuhsu\PycharmProjects\RobotFrameWork\Tests\Arlo\Forgot_pwd.robot">
+<test id="s1-t1" name="Open Browser, maximize and go to &quot;Forgot Password&quot; page" line="15">
+<status status="FAIL" starttime="20250514 14:46:07.930" endtime="20250514 14:46:07.930">Test cannot be empty.</status>
+</test>
+<status status="FAIL" starttime="20250514 14:46:07.606" endtime="20250514 14:46:07.931"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Forgot pwd">Forgot pwd</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
